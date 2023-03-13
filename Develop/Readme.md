@@ -8,12 +8,25 @@
 5. [License](#license)
 
 ## Description:
- 
+ The E-Commerce Project is an application that demonstrates the back-end portion of an E-Commerce site. The project utilizes an Express.JS API and it is configured to use Sequelize and is used in combination with a MySQL database.
 
-## Installation:
+ Routes for the project have been created and can be viewed, modified and deleted through Insomnia and are pictured in the screenshots section.
 
+## Installation: 
+
+To install, the user will clone the GitHub repo to their local storage. Once a terminal is lauched in the repo's main directory, the user will input "npm i" to install all dependencies. 
+
+In the .env file, the The user will fill out their mysql username and password:
+
+DB_NAME='ecommerce_db'
+DB_USER='root'
+DB_PASSWORD='*******'
+
+Then, the database will start by inputing "mysql -u root -p" then "source db/schema.sql" this will create the tables. Once this is complete, the user will exit the mysql end of the term terminal and type "npm run seed" to seed the data into the tables"  
 
 ## Usage:
+
+Routes for the project have been created and can be viewed, modified and deleted through Insomnia and pictured in the screenshots section below.
 
 ## Screenshots:
 
@@ -31,7 +44,11 @@
 <a href="https://ibb.co/p12vLy3"><img src="https://i.ibb.co/BfLVCNg/Get-all-Tags-route.jpg" alt="Get-all-Tags-route" border="0"></a>
 <a href="https://ibb.co/8zZ3pwh"><img src="https://i.ibb.co/PTHpnyS/Get-Category-by-ID-route.jpg" alt="Get-Category-by-ID-route" border="0"></a>
 <a href="https://ibb.co/zVCMJRN"><img src="https://i.ibb.co/k2z718M/Get-Products-by-ID-route.jpg" alt="Get-Products-by-ID-route" border="0"></a>
-<a href="https://ibb.co/3fy16cT"><img src="https://i.ibb.co/SQXNYB6/Get-Tag-by-ID-route.jpg" alt="Get-Tag-by-ID-route" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload pic</a><br />
+<a href="https://ibb.co/3fy16cT"><img src="https://i.ibb.co/SQXNYB6/Get-Tag-by-ID-route.jpg" alt="Get-Tag-by-ID-route" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+
+Walkthrough video:
+
+https://www.loom.com/share/c729ccd1dba24cc79c3555711810d810
 
 ## License:
 MIT
